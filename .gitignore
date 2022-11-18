@@ -26,5 +26,7 @@ Launcher.aps
 ipch/
 Obj/
 Bin/
+x64/
 GeneratedFiles/
 v16/
+
