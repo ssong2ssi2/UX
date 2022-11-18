@@ -1,0 +1,30 @@
+#file
+cppcheck_result.xml
+
+# files
+*.opensdf
+*.tmp
+*.suo
+*.sdf
+*.log
+*.dmp
+*.ncb
+*.pch
+*.pdb
+*.obj
+*.aps
+*.vspscc
+*.vcxproj.user
+*.pro.user
+*.VC.opendb
+*.VC.db
+NPUpdater.aps
+NPUninstaller.aps
+Launcher.aps
+
+# folder
+ipch/
+Obj/
+Bin/
+GeneratedFiles/
+v16/

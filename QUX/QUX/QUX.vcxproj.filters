@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files\async">
+      <UniqueIdentifier>{3b69455f-c5bf-4ea3-93eb-9c34b7aef3c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\flux">
+      <UniqueIdentifier>{0abe93f8-cdb4-4bdf-ad7b-2f5ce8ac1cae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model">
+      <UniqueIdentifier>{b0b9e6db-4e2b-44bf-a160-62312995e4a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\redux">
+      <UniqueIdentifier>{07dde5d6-b8d3-421c-a2b0-6e031772ef03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ui">
+      <UniqueIdentifier>{0700065c-a434-4203-8a99-4f5d6b56b0ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utility">
+      <UniqueIdentifier>{6f6a79e3-b22e-401e-9680-fe760df69760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\async">
+      <UniqueIdentifier>{0474fc21-ed87-4bde-8fed-b8ba3ebe1146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\flux">
+      <UniqueIdentifier>{02ac5fb1-e4f7-4b68-a94d-55b2a05b0419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model">
+      <UniqueIdentifier>{d56f7ccd-0675-4199-b131-d20f87864a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{be085f97-751a-4657-80e3-4f2f1af5fcae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utility">
+      <UniqueIdentifier>{7189a1ce-0cc1-4f76-907a-53ad3a045764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\bind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\defineproperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\functiontype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\metaobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\async\runonmainthread.h">
+      <Filter>Header Files\async</Filter>
+    </ClInclude>
+    <ClInclude Include="include\async\runonnextframe.h">
+      <Filter>Header Files\async</Filter>
+    </ClInclude>
+    <ClInclude Include="include\async\waitforsignal.h">
+      <Filter>Header Files\async</Filter>
+    </ClInclude>
+    <ClInclude Include="include\flux\action.h">
+      <Filter>Header Files\flux</Filter>
+    </ClInclude>
+    <ClInclude Include="include\flux\actionhelper.h">
+      <Filter>Header Files\flux</Filter>
+    </ClInclude>
+    <ClInclude Include="include\model\keymodelbind.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="include\model\modelitem.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="include\redux\action.h">
+      <Filter>Header Files\redux</Filter>
+    </ClInclude>
+    <ClInclude Include="include\redux\actionhelper.h">
+      <Filter>Header Files\redux</Filter>
+    </ClInclude>
+    <ClInclude Include="include\redux\state.h">
+      <Filter>Header Files\redux</Filter>
+    </ClInclude>
+    <ClInclude Include="include\redux\store.h">
+      <Filter>Header Files\redux</Filter>
+    </ClInclude>
+    <ClInclude Include="include\redux\subscriber.h">
+      <Filter>Header Files\redux</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\rcv.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utility\functor.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utility\list.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utility\map.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utility\qvalue.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\utility\variant.h">
+      <Filter>Header Files\utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="include\signalobject.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="include\flux\dispatcher.h">
+      <Filter>Header Files\flux</Filter>
+    </QtMoc>
+    <QtMoc Include="include\flux\middleware.h">
+      <Filter>Header Files\flux</Filter>
+    </QtMoc>
+    <QtMoc Include="include\flux\simplemiddleware.h">
+      <Filter>Header Files\flux</Filter>
+    </QtMoc>
+    <QtMoc Include="include\flux\store.h">
+      <Filter>Header Files\flux</Filter>
+    </QtMoc>
+    <QtMoc Include="include\model\abstractkeymodel.h">
+      <Filter>Header Files\model</Filter>
+    </QtMoc>
+    <QtMoc Include="include\model\abstractlistmodel.h">
+      <Filter>Header Files\model</Filter>
+    </QtMoc>
+    <QtMoc Include="include\model\convertedkeymodel.h">
+      <Filter>Header Files\model</Filter>
+    </QtMoc>
+    <QtMoc Include="include\model\filteredkeymodel.h">
+      <Filter>Header Files\model</Filter>
+    </QtMoc>
+    <QtMoc Include="include\model\filteredlistmodel.h">
+      <Filter>Header Files\model</Filter>
+    </QtMoc>
+    <QtMoc Include="include\model\keymodel.h">
+      <Filter>Header Files\model</Filter>
+    </QtMoc>
+    <QtMoc Include="include\model\keymodeladapterlistmodel.h">
+      <Filter>Header Files\model</Filter>
+    </QtMoc>
+    <QtMoc Include="include\model\keymodelreferencelistmodel.h">
+      <Filter>Header Files\model</Filter>
+    </QtMoc>
+    <QtMoc Include="include\model\listmodel.h">
+      <Filter>Header Files\model</Filter>
+    </QtMoc>
+    <QtMoc Include="include\model\proxylistmodel.h">
+      <Filter>Header Files\model</Filter>
+    </QtMoc>
+    <QtMoc Include="include\model\sortedlistmodel.h">
+      <Filter>Header Files\model</Filter>
+    </QtMoc>
+    <QtMoc Include="include\redux\reducer.h">
+      <Filter>Header Files\redux</Filter>
+    </QtMoc>
+    <QtMoc Include="include\ui\dynamiclistview.h">
+      <Filter>Header Files\ui</Filter>
+    </QtMoc>
+    <QtMoc Include="include\ui\listview.h">
+      <Filter>Header Files\ui</Filter>
+    </QtMoc>
+    <QtMoc Include="include\ui\receiver.h">
+      <Filter>Header Files\ui</Filter>
+    </QtMoc>
+    <QtMoc Include="src\async\runonmainthread.cpp">
+      <Filter>Source Files\async</Filter>
+    </QtMoc>
+    <QtMoc Include="src\bind.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="include\ui\dynamicitemview.h">
+      <Filter>Header Files\ui</Filter>
+    </QtMoc>
+    <QtMoc Include="include\ui\stackedview.h">
+      <Filter>Header Files\ui</Filter>
+    </QtMoc>
+    <QtMoc Include="include\ui\gridview.h">
+      <Filter>Header Files\ui</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\async\runonnextframe.cpp">
+      <Filter>Source Files\async</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flux\actionhelper.cpp">
+      <Filter>Source Files\flux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flux\middleware.cpp">
+      <Filter>Source Files\flux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flux\simplemiddleware.cpp">
+      <Filter>Source Files\flux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flux\store.cpp">
+      <Filter>Source Files\flux</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\convertedkeymodel.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\filteredkeymodel.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\filteredlistmodel.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\keymodel.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\keymodeladapterlistmodel.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\keymodelbind.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\keymodelreferencelistmodel.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\listmodel.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\proxylistmodel.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\sortedlistmodel.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\dynamiclistview.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\listview.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\rcv.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\receiver.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utility\variant.cpp">
+      <Filter>Source Files\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\metaobject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\dynamicitemview.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\stackedview.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\gridview.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
